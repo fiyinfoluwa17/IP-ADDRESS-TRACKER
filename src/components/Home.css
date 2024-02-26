@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --Very-Dark-Gray: hsl(0, 0%, 17%);
+    --Dark-Gray: hsl(0, 0%, 59%);
+}
+.all{
+    position: relative;
+}
+.backimage img{
+    width: 100%; 
+    position: relative;
+}
+.ip{
+    color: white;
+    position: absolute;
+    right: 41%;
+    font-size: 35px;
+    top: 1%;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+input{
+    width:500px;
+    padding: 16px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border: none;
+    position: absolute;
+    right: 35.7%;
+    top: 13%;
+}
+input::placeholder{
+    color: var(--Dark-Gray);
+}
+input:hover{
+    cursor: pointer;
+}
+button{
+    background-color: black;
+    border: none;
+    width: 50px;
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 32.4%;
+    top: 13%;
+}
+button:hover{
+    cursor: pointer;
+}
+section{
+    width: 1000px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    position: absolute;
+    right: 15%;
+    top: 19.5%;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.lastcard{
+    border-right: 1px solid black;
+    padding-right: 40px;
+    line-height: 20px;
+}
+.lastcard1{
+    width: 90px;
+}
+.lastcard h4{
+    color: var(--Dark-Gray);
+    font-family: 'Rubik';
+    font-family: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.lastcard1 h4{
+    color: var(--Dark-Gray);
+    font-family: 'Rubik';
+    font-family: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.lastcard p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Rubik';
+}
+.lastcard1 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Rubik';
+}
+#map {
+    position: relative;
+    height: 485px;
+    width: 100%;
+  }
+  
+  .section-overlay {
+    position: relative;
+    top: -115.7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the section is above the map */
+  }
